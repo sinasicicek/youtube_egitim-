@@ -1,0 +1,40 @@
+.about {
+  background-image: url("../assets/AboutSection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 10rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.about div {
+  max-width: 720px;
+}
+
+.about h2 {
+  max-width: 100%;
+  text-align: left;
+  font-size: 40px;
+}
+
+.about p {
+  max-width: 720px;
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=about.css.map */
